@@ -56,6 +56,9 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
+                ########## NOTE #############
 
-
-
+# This implementation includes signature verification, error handling, and a placeholder for custom processing logic
+# The "process_webhook" function can adjusted to implement your specific business logic based on the received payload.
+# Please make sure to replace 'your_secret_key' with the actual secret key provided by YaYa Wallet. 
+# Additionally, consider using environment variables for sensitive information like secret keys for enhanced security.
